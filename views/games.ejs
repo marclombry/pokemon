@@ -1,0 +1,16 @@
+<%- include('./partials/header') %>
+
+<%- include('./partials/navbar') %>
+<main class="content ">
+    <h1 class ="underline">Listes de jeux pokémon sur switch</h1>
+    <div class="d-flex f-wrap m-10">
+        <% games.games.map((game) => { %>
+            <section class="m-1p card bg-red c-white">
+                <h2><%= game.title %></h2>
+                <img class="w-100p" src="public/img/<%= game.img %>" alt="<%= game.title %>" title="<%= game.title %>">
+                <p class="f-size30 btn-check"><%= game.price %> € </p>
+            </section>
+        <% }); %>
+    </div> 
+</main>
+<%- include('./partials/footer') %>

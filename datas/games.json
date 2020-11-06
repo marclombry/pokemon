@@ -1,0 +1,8 @@
+{
+    "games":[
+        {"id":1,"title":"Pokémon pikachu","img":"jacquet_pikachu.jfif","price":34.99},
+        {"id":2,"title":"Pokémon évoli","img":"jacquet_evoli.jfif","price":34.99},
+        {"id":3,"title":"Pokémon épée","img":"jacquet_epee.jfif","price":44.99},
+        {"id":4,"title":"Pokémon bouclier","img":"jacquet_bouclier.jfif","price":44.99}
+    ]
+}

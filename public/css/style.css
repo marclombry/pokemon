@@ -1,0 +1,110 @@
+body {
+    font-family:Consolas,Monaco,"Andale Mono",monospace;
+    background:url("/public/img/fond.webp") no-repeat fixed center;
+    background-size:cover;
+}
+
+.central{
+    min-height: :250px;;
+}
+
+/* text */
+.underline{text-decoration:underline;}
+.text-center{text-align:center;}
+/* link */
+a {text-decoration: none;color:white;font-weight: bold;}
+
+
+/* bg-color */
+.bg-red{background-color: red;}
+.bg-white{background-color: white;}
+.bg-black{background-color: black;}
+/* color */
+.c-white{color:white;}
+.c-green{color:green;}
+
+/* width */
+.w-100p{width:100%;}
+
+/* height */
+/* margin */
+.m-1p{margin:1%;}
+.m-0{margin:0;}
+.m-10{margin:10px;}
+.m-auto{margin:auto;}
+.mtb-10{margin:10px 0px;}
+/* padding */
+.p-0{padding:0;}
+.p-10{padding:10px;}
+
+
+
+/* font */
+.f-size30{font-size:20px;}
+
+/* li */
+nav >ul >li{list-style-type: none;}
+.l-none{list-style-type: none;}
+/* display */
+.d-flex{display:flex;}
+.d-none{display:none;}
+.d-block{display:block;}
+.d-inline-block{display:inline-block;}
+
+/* flex */
+.f-wrap{flex-wrap:wrap;}
+
+/* navbar */
+.h-nav{
+    display:flex;
+    justify-content: left;
+}
+
+/*content */
+.content{
+    margin:10px;
+    min-height:800px;
+
+}
+
+/* footer */
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+/* justify */
+
+/* button */
+.btn-check{
+    border:1px solid white;
+    margin:10px auto;
+    padding:4px;
+    width:100px;
+}
+.btn-type{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 2%;
+}
+/* box */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.box{
+    border:1px solid grey;
+    padding:10px;
+    min-width: 300px;
+}

@@ -1,0 +1,16 @@
+<%- include('./partials/header') %>
+
+<%- include('./partials/navbar') %>
+<main class="content">
+    <div class="d-flex f-wrap ">
+        <% pokemons.pokemon.map((pokemon) => { %>
+            <div class="d-flex f-wrap m-10 box bg-white">
+            <p class="p-10"><%= pokemon.id %></p>
+            <p class="p-10"><img class="" src="public/img/<%= pokemon.img %>" alt="<%= pokemon.title %>" title="<%= pokemon.title %>"></p>
+            <p class="p-10"><%= pokemon.name %> </p>
+            <p class="p-10 btn-type"><%= pokemon.type.join(' / ') %></p>
+            </div>
+        <% }); %>
+    </div>
+</main>
+<%- include('./partials/footer') %>
